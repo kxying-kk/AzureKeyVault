@@ -17,7 +17,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SampleApplication implements CommandLineRunner {
     private static final Logger LOGGER = LoggerFactory.getLogger(SampleApplication.class);
 
-    @Value("${yourSecretPropertyName}")
+    @Value("${kkSecretPropertyName}")
     private String mySecretProperty;
 
     public static void main(String[] args) {
